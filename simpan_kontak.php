@@ -1,7 +1,7 @@
 <?php
 // Koneksi ke database
-$host = "localhost"; // atau bisa menggunakan IP database server
-$username = "root";  // ganti dengan username MySQL kamu
+$host = "wisata-baturraden"; // atau bisa menggunakan IP database server
+$username = "simpan_kontak";  // ganti dengan username MySQL kamu
 $password = "";      // ganti dengan password MySQL kamu
 $dbname = "wisata_alam"; // nama database
 
