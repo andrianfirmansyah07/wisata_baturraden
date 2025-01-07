@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h5 {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pb-4 {
+    padding-bottom: 40px;
+}
+
+.pt-4 {
+    padding-top: 40px;
+}
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+/* Navigation */
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    color: #ffd700;
+}
+
+/* Sections */
+#top {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#wisata, #galeri, #lokasi, #kontak {
+    background: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #444;
+}
+
+/* Galeri */
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #ffd700;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+#sosmed i {
+    margin-right: 10px;
+    color: #333;
+}
+
+#sosmed i:hover {
+    color: #ffd700;
+}
+
+a#backtotop img {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+/* Back to Top Button */
+a#backtotop {
+    display: block;
+}
+
+a#backtotop:hover {
+    opacity: 0.8;
+}
